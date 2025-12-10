@@ -1,1 +1,15 @@
-python-3.9
+streamlit
+# Ghim Numpy dưới 2.0 để an toàn cho TensorFlow
+numpy<2.0.0
+# Để Pandas tự do, hệ thống sẽ chọn bản mới nhất chạy được với Py3.12
+pandas
+# Cài pandas-ta từ kho chuẩn (bây giờ sẽ cài được vì đã có Py3.12)
+pandas-ta
+# Các thư viện khác
+tensorflow-cpu
+numba
+plotly
+scikit-learn
+sqlalchemy
+psycopg2-binary
+joblib
