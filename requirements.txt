@@ -1,10 +1,10 @@
 streamlit
-# Numpy bản ổn định
-numpy==1.26.4
-# Downgrade Pandas xuống 1.5.3 để khớp với pandas-ta trên kho
-pandas==1.5.3
-# Cài bản ổn định từ PyPI (bỏ link git lỗi đi)
-pandas-ta==0.3.14b0
+# Giữ Numpy < 2.0 để an toàn cho TensorFlow
+numpy<2.0.0
+# Không ghim phiên bản Pandas nữa (để nó tự cài bản 2.x mới nhất cho Py3.12)
+pandas
+# Không ghim phiên bản pandas-ta (để nó tự cài bản 0.4.71b0 mới nhất)
+pandas-ta
 # Các thư viện khác
 tensorflow-cpu
 numba
