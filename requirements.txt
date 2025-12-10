@@ -1,0 +1,10 @@
+streamlit
+pandas
+pandas-ta
+numpy
+sqlalchemy
+plotly
+joblib
+tensorflow
+scikit-learn
+psycopg2-binary
