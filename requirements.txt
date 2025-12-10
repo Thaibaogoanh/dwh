@@ -1,8 +1,8 @@
 streamlit
 numpy==1.26.4
 pandas<3.0.0
-# Dùng link file nén (zip) để tránh lỗi hỏi mật khẩu Git
-https://github.com/twopirllc/pandas-ta/archive/refs/heads/development.zip
+# Link zip chuẩn của GitHub (bỏ đoạn refs/heads thừa đi)
+https://github.com/twopirllc/pandas-ta/archive/development.zip
 tensorflow-cpu
 numba
 plotly
