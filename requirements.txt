@@ -1,13 +1,11 @@
 streamlit
-# Numpy bản ổn định
-numpy==1.26.4
-# QUAN TRỌNG: Hạ Pandas xuống 1.5.3 để chạy mượt với pandas-ta trên Python 3.10
-pandas==1.5.3
-# Cài pandas-ta từ kho chuẩn
+# Giữ Numpy < 2.0 để tránh lỗi TensorFlow
+numpy<2.0.0
+# Để trống phiên bản để cài bản mới nhất hỗ trợ Python 3.12
+pandas
 pandas-ta
-# TensorFlow bản nhẹ
-tensorflow-cpu
 # Các thư viện khác
+tensorflow-cpu
 numba
 plotly
 scikit-learn
