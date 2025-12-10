@@ -1,12 +1,13 @@
 streamlit
-# Giữ Numpy < 2.0 để an toàn cho TensorFlow
-numpy<2.0.0
-# Không ghim phiên bản Pandas nữa (để nó tự cài bản 2.x mới nhất cho Py3.12)
-pandas
-# Không ghim phiên bản pandas-ta (để nó tự cài bản 0.4.71b0 mới nhất)
+# Numpy bản ổn định
+numpy==1.26.4
+# QUAN TRỌNG: Hạ Pandas xuống 1.5.3 để chạy mượt với pandas-ta trên Python 3.10
+pandas==1.5.3
+# Cài pandas-ta từ kho chuẩn
 pandas-ta
-# Các thư viện khác
+# TensorFlow bản nhẹ
 tensorflow-cpu
+# Các thư viện khác
 numba
 plotly
 scikit-learn
