@@ -1,13 +1,9 @@
 streamlit
-# Cài Numpy bản cũ để tương thích tốt nhất
 numpy==1.26.4
-# Không ghim cứng Pandas nữa để pandas-ta tự chọn bản phù hợp
 pandas<3.0.0
-# Cài pandas-ta từ nguồn development để fix lỗi tương thích
-git+https://github.com/twopirllc/pandas-ta.git@development
-# Tensorflow bản nhẹ
+# Dùng link file nén (zip) để tránh lỗi hỏi mật khẩu Git
+https://github.com/twopirllc/pandas-ta/archive/refs/heads/development.zip
 tensorflow-cpu
-# Các thư viện khác
 numba
 plotly
 scikit-learn
