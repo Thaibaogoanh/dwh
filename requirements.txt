@@ -1,13 +1,12 @@
 streamlit
-# Numpy bản ổn định nhất cho AI/ML hiện tại
+# Numpy bản ổn định
 numpy==1.26.4
-# Pandas bản 2.1.4 chạy rất mượt với pandas-ta (tránh bản 2.2.x mới ra hay lỗi)
-pandas==2.1.4
-# Quay về cài bản chuẩn, không dùng link zip nữa
-pandas_ta
-# TensorFlow bản nhẹ
+# Downgrade Pandas xuống 1.5.3 để khớp với pandas-ta trên kho
+pandas==1.5.3
+# Cài bản ổn định từ PyPI (bỏ link git lỗi đi)
+pandas-ta==0.3.14b0
+# Các thư viện khác
 tensorflow-cpu
-# Các thư viện phụ trợ
 numba
 plotly
 scikit-learn
