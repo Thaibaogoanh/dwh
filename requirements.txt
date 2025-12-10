@@ -1,11 +1,11 @@
 streamlit
-# Cài numpy bản cũ ổn định
+# Cài Numpy bản cũ để tương thích tốt nhất
 numpy==1.26.4
-# Cài pandas bản tương thích
-pandas==2.2.2
-# Cài pandas-ta
-pandas_ta
-# Tensorflow bản CPU cho nhẹ
+# Không ghim cứng Pandas nữa để pandas-ta tự chọn bản phù hợp
+pandas<3.0.0
+# Cài pandas-ta từ nguồn development để fix lỗi tương thích
+git+https://github.com/twopirllc/pandas-ta.git@development
+# Tensorflow bản nhẹ
 tensorflow-cpu
 # Các thư viện khác
 numba
