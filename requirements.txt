@@ -1,10 +1,16 @@
 streamlit
-pandas
-pandas-ta
-numpy<2.0.0
-sqlalchemy
+# Cài numpy bản cũ ổn định
+numpy==1.26.4
+# Cài pandas bản tương thích
+pandas==2.2.2
+# Cài pandas-ta
+pandas_ta
+# Tensorflow bản CPU cho nhẹ
+tensorflow-cpu
+# Các thư viện khác
+numba
 plotly
-joblib
-tensorflow
 scikit-learn
+sqlalchemy
 psycopg2-binary
+joblib
